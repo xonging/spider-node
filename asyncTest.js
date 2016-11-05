@@ -3,8 +3,6 @@ var path = require('path');
 var request = require('request');
 var cheerio = require('cheerio');
 var async = require("async");
-
-
 var q = async.queue(function(task, callback) {
     console.log('hello ' + task.name);
     console.log(task);
