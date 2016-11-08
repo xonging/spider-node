@@ -7,9 +7,6 @@ var rootUrl = 'http://www.sequ6.com';
 var fetchedPage = new Array();//一个用来存已抓取的页面
 var fetchedList = new Array();//一个用来存已经抓取的页面列表
 
-
-
-
 function fetchList(url) {
     //首先 解析列表
     if(fetchedList.indexOf(url) > -1) {
